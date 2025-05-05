@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color:#EC715F;
+}
+
+.nav-list{
+  margin: 0 auto;
+  width:1024px;
+  height:70px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.nav-list-item{
+  padding:0 30px;
+}
+
+.logo{
+  margin-right:auto;
+}
+
+.nav-list-item a{
+  text-decoration: none;
+  color:#FAFAFA;
+  font-size:16px;
+}
+
+.main-visual{
+  height:650px;
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size:100%;
+}
+
+.main-visual-content{
+  padding-top:200px;
+}
+
+.main-visual-title{
+  text-align: center;
+  color:#FAFAFA;
+  font-size: 64px;
+  padding-bottom: 10px;
+}
+
+.main-visual-text{
+  text-align: center;
+  color:#FAFAFA;
+  font-size:20px;
+}
+
+.portfolio-wrap{
+  background-color:#ECEFF1 ;
+}
+
+.portfolio{
+  width:920px;
+  margin: 0 auto;
+  padding:90px 0;
+  
+}
+
+.main-title{
+  text-align: center;
+  font-size:32px;
+  color:#000000;
+  position: relative;
+}
+
+.main-title::before{
+  content: "";
+  position: absolute;
+  background-color: #EC715F;
+  width:70px;
+  height:3px;
+  bottom:-8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.portfolio-example{
+  text-align: center;
+  margin:30px 0;
+  font-size: 16px;
+  color:#000000;
+}
+
+.portfolio-contents{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width:300px;
+  height:250px;
+  margin:10px;
+}
+
+.box:nth-child(odd){
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:0;
+}
+
+.box:nth-child(even){
+margin-bottom: 0;
+}
+
+.box:nth-child(4){
+  margin-left:0;
+}
+
+.box:nth-child(6){
+  margin-right:0;
+}
+
+.box1{
+background-image: url(img/sketch.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.box2{
+background-image: url(img/websuku.png);
+background-size: cover;
+background-position: center;
+}
+
+.box3{
+background-image: url(img/write.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.box4{
+background-image: url(img/webcamp.png);
+background-size: cover;
+background-position: center;
+}
+
+.box5{
+background-image: url(img/talk.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.box6{
+background-image: url(img/webcamp-mother.png);
+background-size: cover;
+background-position: center;
+}
+
+.feature{
+  width:980px;
+  margin:0 auto;
+  padding:90px 0;
+}
+
+.step{
+  width:320px;
+}
+
+.feature-contents{
+  display: flex;
+}
+
+.feature-title{
+  text-align: center;
+  position:relative;
+  font-size: 32px;
+  color:#000000;
+}
+
+.feature-title::before{
+  content:"";
+  position:absolute;
+  background-color: #EC715F;
+  width:70px;
+  height:3px;
+  bottom:-8px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.feature-example{
+  text-align: center;
+  margin:30px 0;
+  font-size: 16px;
+}
+
+i{
+  font-size: 60px;
+}
+
+.icon{
+  text-align: center;
+}
+
+.step2{
+  margin:0 10px;
+}
+
+.step > h3{
+  font-size: 20px;
+  color:#000000;
+  margin: 10px 0;
+  text-align: center;
+}
