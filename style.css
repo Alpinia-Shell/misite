@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* ナビゲーションバー */
 header{
   background-color:#EC715F;
 }
@@ -35,6 +36,8 @@ ul{
   font-size:16px;
 }
 
+/* メインビジュアル */
+
 .main-visual{
   height:650px;
   background-image: url(img/mv.png);
@@ -58,6 +61,8 @@ ul{
   color:#FAFAFA;
   font-size:20px;
 }
+
+/* ポートフォリオ */
 
 .portfolio-wrap{
   background-color:#ECEFF1 ;
@@ -159,6 +164,7 @@ background-size: cover;
 background-position: center;
 }
 
+/* フィーチャー */
 .feature{
   width:980px;
   margin:0 auto;
@@ -197,7 +203,7 @@ background-position: center;
   font-size: 16px;
 }
 
-i{
+.feature-icon{
   font-size: 60px;
 }
 
@@ -214,4 +220,152 @@ i{
   color:#000000;
   margin: 10px 0;
   text-align: center;
+}
+
+/* プロフィール */
+
+.profile-wrap{
+  background-color: #ECEFF1;
+}
+
+.profile-contents{
+  width:1024px;
+  padding:90px 0;
+  margin:0 auto;
+}
+
+.profile-title{
+  font-size: 32px;
+  color:#000000;
+  text-align: center;
+  position: relative;
+}
+
+.profile-title::before{
+  content:"";
+  position:absolute;
+  background-color: #EC715F;
+  width:70px;
+  height:3px;
+  bottom:-8px;
+  left:50%;
+  transform:translateX(-50%)
+}
+
+.profile-example{
+  margin-top:30px;
+  text-align: center;
+}
+
+.about-me-wrap{
+  display: flex;
+  margin-top:30px;
+}
+
+.left-content{
+  width:512px;
+}
+
+.right-content{
+  width:512px;
+}
+
+.profile-image{
+  width:250px;
+  height:250px;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+.myname{
+  margin-bottom: 20px;
+}
+
+.myname-title,.myskills-title{
+  font-size: 20px;
+  margin-bottom:5px;
+}
+
+/* コンタクト */
+
+.contact-contents{
+  width:800px;
+  padding:90px 0;
+  margin:0 auto;
+}
+
+.contact-title{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  position:relative;
+}
+
+.contact-title::before{
+  content:"";
+  position:absolute;
+  background-color: #EC715F;
+  width:70px;
+  height:3px;
+  bottom:-8px;
+  left:50%;
+  transform:translateX(-50%)
+}
+
+.contact-example{
+  text-align: center;
+  margin:30px 0;
+}
+
+.connection-wrap{
+  display:flex;
+}
+
+.connection{
+  width:400px;
+}
+
+.social{
+  width:400px;
+}
+
+.social-icon{
+  font-size: 50px;
+}
+
+.social-icon:nth-child(3) {
+  margin: 0 20px;
+}
+
+.connection-left-content{
+  width:200px;
+  margin:0 auto;
+}
+
+.connection-left-content > h3 {
+  font-size: 20px;
+  margin-bottom:5px;
+}
+
+.social-right-content{
+  width:200px;
+  margin: 0 auto;
+}
+
+.social-right-content > h3 {
+  font-size: 20px;
+  margin-bottom:5px;
+}
+
+.mail{
+  margin-bottom:20px;
+}
+
+footer{
+  background-color: #EC715F;
+  color:#FAFAFA;
+  height:60px;
+  text-align: center;
+  line-height:60px;
 }
