@@ -38,7 +38,7 @@ ul{
 
 /* メインビジュアル */
 
-.main-visual{
+#mv{
   height:650px;
   background-image: url(img/mv.png);
   background-position: center;
@@ -75,14 +75,14 @@ ul{
   
 }
 
-.main-title{
+#main-title{
   text-align: center;
   font-size:32px;
   color:#000000;
   position: relative;
 }
 
-.main-title::before{
+#main-title::before,#feature-title::before,#profile-title::before,#contact-title::before{
   content: "";
   position: absolute;
   background-color: #EC715F;
@@ -179,22 +179,11 @@ background-position: center;
   display: flex;
 }
 
-.feature-title{
+#feature-title{
   text-align: center;
   position:relative;
   font-size: 32px;
   color:#000000;
-}
-
-.feature-title::before{
-  content:"";
-  position:absolute;
-  background-color: #EC715F;
-  width:70px;
-  height:3px;
-  bottom:-8px;
-  left:50%;
-  transform:translateX(-50%);
 }
 
 .feature-example{
@@ -234,22 +223,11 @@ background-position: center;
   margin:0 auto;
 }
 
-.profile-title{
+#profile-title{
   font-size: 32px;
   color:#000000;
   text-align: center;
   position: relative;
-}
-
-.profile-title::before{
-  content:"";
-  position:absolute;
-  background-color: #EC715F;
-  width:70px;
-  height:3px;
-  bottom:-8px;
-  left:50%;
-  transform:translateX(-50%)
 }
 
 .profile-example{
@@ -295,22 +273,11 @@ background-position: center;
   margin:0 auto;
 }
 
-.contact-title{
+#contact-title{
   font-size: 32px;
   color: #000000;
   text-align: center;
   position:relative;
-}
-
-.contact-title::before{
-  content:"";
-  position:absolute;
-  background-color: #EC715F;
-  width:70px;
-  height:3px;
-  bottom:-8px;
-  left:50%;
-  transform:translateX(-50%)
 }
 
 .contact-example{

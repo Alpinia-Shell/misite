@@ -2,8 +2,9 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport">
     <script src="https://kit.fontawesome.com/0136745229.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>mysite</title>
   </head>
 
@@ -11,28 +12,33 @@
     <header>
       <nav class="nav-bar">
         <ul class="nav-list">
-          <img src="img/logo.png" alt="MySite"  class= "logo" height="70">
-          
-          <li class="nav-list-item">
-            <a href="index.html">Portfolio</a>
+
+          <li class="logo">
+            <a href="#mv">
+              <img src="img/logo.png" alt="MySite" height="70">
+            </a>
           </li>
 
           <li class="nav-list-item">
-            <a href="index.html">Feature</a>
+            <a href="#main-title">Portfolio</a>
           </li>
 
           <li class="nav-list-item">
-            <a href="index.html">Profile</a>
+            <a href="#feature-title">Feature</a>
           </li>
 
           <li class="nav-list-item">
-            <a href="index.html">Contact</a>
+            <a href="#profile-title">Profile</a>
+          </li>
+
+          <li class="nav-list-item">
+            <a href="#contact-title">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="main-visual">
+      <div id="mv">
         <div class="main-visual-content">
           <h1 class="main-visual-title">Lorem lpsum</h1>
           <p class="main-visual-text">simply dummy text of the printing</p>
@@ -41,7 +47,7 @@
 
       <section class="portfolio-wrap">
         <div class="portfolio">
-          <h2 class="main-title">Portfolio</h2>
+          <h2 id="main-title">Portfolio</h2>
           <div class="portfolio-example">
             <p>It is a long established fact that a reader will be distracted by the readable</p>
             <p>content of a page when looking at its layout.</p>
@@ -61,7 +67,7 @@
 
       <section class="feature-wrap">
         <div class="feature">
-          <h2 class="feature-title">Feature</h2>
+          <h2 id="feature-title">Feature</h2>
           <div class="feature-example">
             <p>It is a long established fact that a reader will be distracted by the readable</p>
             <p>content of a page when looking at its layout.</p>
@@ -116,7 +122,7 @@
 
       <section class="profile-wrap">
         <div class="profile-contents">
-          <h3 class="profile-title">Profile</h3>
+          <h3 id="profile-title">Profile</h3>
           <div class="profile-example">
             <p>It is a long established fact that a reader will be distracted by the readable</p>
             <p>content of a page when looking at its layout.</p>
@@ -151,7 +157,7 @@
 
       <section class="contact-wrap">
         <div class="contact-contents">
-          <h2 class="contact-title">Contact</h2>
+          <h2 id="contact-title">Contact</h2>
           <div class="contact-example">
             <p>It is a long established fact that a reader will be distracted by the readable</p>
             <p>content of a page when looking at its layout.</p>
@@ -163,12 +169,12 @@
               <div class="connection-left-content">
                 <div class="mail">
                   <h3>Mail</h3>
-                  <p>xxx@xxx.com</p>
+                  <a href="mailto:xxx@xxx.com">xxx@xxx.com</a>
                 </div> 
                 
                 <div class="tel">
                   <h3>Tel</h3>
-                  <p>000-0000-0000</p>
+                  <a href="tel:000-0000-0000">000-0000-0000</a>
                 </div>
               </div>
             </div>
